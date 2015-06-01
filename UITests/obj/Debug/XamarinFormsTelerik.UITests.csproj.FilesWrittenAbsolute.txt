@@ -1,0 +1,1 @@
+/Users/crump/Projects/XamarinFormsTelerik/UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
