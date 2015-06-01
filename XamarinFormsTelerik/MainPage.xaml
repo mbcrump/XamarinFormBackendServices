@@ -1,14 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsTelerik.MainPage">
   <ScrollView>
+
     <StackLayout Orientation="Vertical" Padding="30" Spacing="10">
+
+        <Label Text="Enter User Info" Font="Large" HorizontalOptions="Center"/> 
+
       <StackLayout Orientation="Horizontal" Spacing="5">
-        <Label Text="FirstName" Font="Large" VerticalOptions="End"/>
+        <Label Text="First Name" Font="Large" VerticalOptions="End"/>
         <Entry x:Name="entryFirstName" HorizontalOptions="FillAndExpand"/>
       </StackLayout>
 
        <StackLayout Orientation="Horizontal" Spacing="5">
-        <Label Text="LastName" Font="Large" VerticalOptions="End"/>
+        <Label Text="Last Name" Font="Large" VerticalOptions="End"/>
         <Entry x:Name="entryLastName" HorizontalOptions="FillAndExpand"/>
       </StackLayout>
 

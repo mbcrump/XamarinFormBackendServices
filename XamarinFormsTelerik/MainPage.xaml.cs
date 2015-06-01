@@ -35,9 +35,17 @@ namespace XamarinFormsTelerik
 
 			customerData.Create(cust).ExecuteSync();
 
+			DisplayAlert ("Saved", "The Data has been saved successfully!", "OK");
+			ClearFields ();
+
 		}
 
 		void resetClicked(object sender, EventArgs args)
+		{
+			ClearFields ();
+		}
+
+		private void ClearFields()
 		{
 			entryFirstName.Text = null;
 			entryLastName.Text = null;

@@ -18,6 +18,6 @@
 /Users/crump/Projects/XamarinFormsTelerik/Droid/bin/Debug/Xamarin.Forms.Core.dll
 /Users/crump/Projects/XamarinFormsTelerik/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/crump/Projects/XamarinFormsTelerik/Droid/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/crump/Projects/XamarinFormsTelerik/Droid/bin/Debug/Telerik.Everlive.Sdk.dll
 /Users/crump/Projects/XamarinFormsTelerik/Droid/bin/Debug/XamarinFormsTelerik.dll
 /Users/crump/Projects/XamarinFormsTelerik/Droid/bin/Debug/XamarinFormsTelerik.dll.mdb
-/Users/crump/Projects/XamarinFormsTelerik/Droid/bin/Debug/Telerik.Everlive.Sdk.dll

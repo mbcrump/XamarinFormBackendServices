@@ -34,6 +34,6 @@
 /Users/crump/Projects/XamarinFormsTelerik/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
 /Users/crump/Projects/XamarinFormsTelerik/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/crump/Projects/XamarinFormsTelerik/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/crump/Projects/XamarinFormsTelerik/iOS/bin/iPhoneSimulator/Debug/Telerik.Everlive.Sdk.dll
 /Users/crump/Projects/XamarinFormsTelerik/iOS/bin/iPhoneSimulator/Debug/XamarinFormsTelerik.dll
 /Users/crump/Projects/XamarinFormsTelerik/iOS/bin/iPhoneSimulator/Debug/XamarinFormsTelerik.dll.mdb
-/Users/crump/Projects/XamarinFormsTelerik/iOS/bin/iPhoneSimulator/Debug/Telerik.Everlive.Sdk.dll
