@@ -28,10 +28,6 @@ namespace XamarinFormsTelerik {
         
         private Entry entryZip;
         
-        private Button btnSubmit;
-        
-        private Button btnReset;
-        
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
             entryFirstName = this.FindByName <Entry>("entryFirstName");
@@ -40,8 +36,6 @@ namespace XamarinFormsTelerik {
             entryCity = this.FindByName <Entry>("entryCity");
             entryState = this.FindByName <Entry>("entryState");
             entryZip = this.FindByName <Entry>("entryZip");
-            btnSubmit = this.FindByName <Button>("btnSubmit");
-            btnReset = this.FindByName <Button>("btnReset");
         }
     }
 }

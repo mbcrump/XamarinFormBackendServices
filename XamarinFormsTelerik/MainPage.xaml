@@ -1,44 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsTelerik.MainPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+xmlns:vm="clr-namespace:XamarinFormsTelerik.ViewModels;assembly=XamarinFormsTelerik"
+x:Class="XamarinFormsTelerik.MainPage">
   <ScrollView>
 
     <StackLayout Orientation="Vertical" Padding="30" Spacing="10">
+    <StackLayout.BindingContext>
+    	<vm:MainPageViewModel />
+	</StackLayout.BindingContext>	
 
-        <Label Text="Enter User Info" Font="Large" HorizontalOptions="Center"/> 
+      <Label Text="Enter User Info" Font="Large" HorizontalOptions="Center"/> 
 
       <StackLayout Orientation="Horizontal" Spacing="5">
         <Label Text="First Name" Font="Large" VerticalOptions="End"/>
-        <Entry x:Name="entryFirstName" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="entryFirstName" HorizontalOptions="FillAndExpand" Text="{Binding FirstName}"/>
       </StackLayout>
 
        <StackLayout Orientation="Horizontal" Spacing="5">
         <Label Text="Last Name" Font="Large" VerticalOptions="End"/>
-        <Entry x:Name="entryLastName" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="entryLastName" HorizontalOptions="FillAndExpand" Text="{Binding LastName}"/>
       </StackLayout>
 
       <StackLayout Orientation="Horizontal" Spacing="5">
         <Label Text="Address" Font="Large" VerticalOptions="End"/>
-        <Entry x:Name="entryAddress" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="entryAddress" HorizontalOptions="FillAndExpand" Text="{Binding Address}"/>
       </StackLayout>
 
       <StackLayout Orientation="Horizontal" Spacing="5">
         <Label Text="City" Font="Large" VerticalOptions="End"/>
-        <Entry x:Name="entryCity" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="entryCity" HorizontalOptions="FillAndExpand" Text="{Binding City}"/>
       </StackLayout>
 
       <StackLayout Orientation="Horizontal" Spacing="5">
         <Label Text="State" Font="Large" VerticalOptions="End"/>
-        <Entry x:Name="entryState" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="entryState" HorizontalOptions="FillAndExpand" Text="{Binding State}"/>
       </StackLayout>
 
       <StackLayout Orientation="Horizontal" Spacing="5">
         <Label Text="Zip" Font="Large" VerticalOptions="End"/>
-        <Entry x:Name="entryZip" HorizontalOptions="FillAndExpand"/>
+        <Entry x:Name="entryZip" HorizontalOptions="FillAndExpand" Text="{Binding Zip}"/>
       </StackLayout>
 
       <StackLayout Orientation="Horizontal" Spacing="5">
-        <Button x:Name="btnSubmit" Text="Submit" HorizontalOptions="FillAndExpand" Clicked="submitClicked" />
-        <Button x:Name="btnReset" Text="Reset" HorizontalOptions="FillAndExpand" Clicked="resetClicked" />
+        <Button Text="Submit" HorizontalOptions="FillAndExpand" Command="{Binding ShowNameCommand}"
+        IsEnabled="{Binding HasValidInput}" />
+        <Button Text="Reset" HorizontalOptions="FillAndExpand" Command="{Binding ResetFieldsCommand}"/>
       </StackLayout>
 
     </StackLayout>
