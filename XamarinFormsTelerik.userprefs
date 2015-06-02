@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="iOS/XamarinFormsTelerik.iOS.csproj" GitUserInfo="UsingMD">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.3" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsTelerik/XamarinFormsTelerik.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="XamarinFormsTelerik/XamarinFormsTelerik.cs" Line="3" Column="7" />
-      <File FileName="XamarinFormsTelerik/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="XamarinFormsTelerik/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="XamarinFormsTelerik/MainPage.xaml" Line="51" Column="19" />
+      <File FileName="XamarinFormsTelerik/MainPage.xaml.cs" Line="15" Column="3" />
+      <File FileName="XamarinFormsTelerik/Customer.cs" Line="38" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
